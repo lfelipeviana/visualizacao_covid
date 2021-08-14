@@ -9,3 +9,4 @@ pandas
 plotly==4.14.3
 python-dateutil
 pandas-datareader==0.9.0
+gunicorn==20.1.0
