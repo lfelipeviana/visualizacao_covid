@@ -8,12 +8,10 @@ from luiz_viana.graficos_luiz_viana import graficos_luiz_viana
 from veloso.days_until_vac import DaysUntilVacDash
 from veloso.population_chart import PopulationChartDash
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-server = app.server
 
 if __name__ == '__main__':
-        
+    external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+    app = dash.Dash(__name__, external_stylesheets=external_stylesheets)        
 
     components_html = []
     # # luiz viana
