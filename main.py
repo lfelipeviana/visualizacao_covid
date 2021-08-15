@@ -35,5 +35,5 @@ if __name__ == '__main__':
     components_html += [c1.component_html, c2.component_html]
 
     app.layout = html.Div(components_html)
-
-    app.run_server(debug=True)
+    server.run_server()
+    #app.run_server(debug=True)
